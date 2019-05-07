@@ -19,4 +19,4 @@ The team carefully reviewed all the website and finally gathered following criti
 * Mars Hemispheres
 ### Loading Critical Data to Mongo Database
 Basically jupyter notebook used to scratch the data from all the website and check the python code is doing as expected. Once all scratching went weldone it is time to load the data to mongo database. The mongo db is running while we push the critical data in to database. Final vizualisation is done after creating a HTML web server, making a route to grub latest critical data. it's awesom project...I found the high resulation Mosaic of the Valles Marineris hemisphere of Mars.
-![GitHub Logo](https://github.com/obaid8712/Web-Scaraping-Project11/blob/master/image/valles_marineris_enhanced)
+![GitHub Logo](https://github.com/obaid8712/Web-Scaraping-Project11/blob/master/image/valles_marineris_enhanced.tif)
