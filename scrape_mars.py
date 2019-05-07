@@ -124,6 +124,12 @@ def scrape():
 
     #df.to_html('filename.html')
     df_mars.to_html('filename.html',index=False)
+    
+    df_mars.columns=["description","value"]
+    df_mars.set_index('description', inplace=True)
+    mars_html_table = df_mars.to_html()
+    mars_html_table = mars_html_table.replace('\n', '')
+    #mars_html_table
 
     #Visit astrogeology web for Mars Hemispheres
     ##############################################
@@ -170,6 +176,7 @@ def scrape():
         "news_p": news_p,
         "featured_image_url":featured_image_url,
         "mars_weather": mars_weather,
+        "mars_fact":mars_html_table,
         "hemisphere_image_urls": hemisphere_image_urls
     }
 
