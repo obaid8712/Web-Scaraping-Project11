@@ -1,0 +1,61 @@
+/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+body {
+    background: #f1f1f1;
+  }
+  
+  h2 {
+    font-size: 30px;
+    color: #fd51c4;
+  }
+  h4 {
+    font-size: 30px;
+    color: #08388b;
+  }
+  h5 {
+    text-align: center;    
+    color: #5191fd;
+    font-size: 40px;
+  }
+
+  .img {  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
+    float: center; 
+
+    /*vertical-align: middle;
+    padding: 10px;*/
+  }
+
+  /* Styling the header, giving it a height, a background color, and some top padding */
+.header {
+  height: 150px;
+  padding-top: 20px;
+  background: #cdcdcd;
+}
+
+/* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
+.header h1 {
+  padding: 60px;
+  margin: 0;
+  color: rgb(138, 30, 30);
+  text-align: center;
+}
+
+/* Centering our h5 tag inside our header, giving it a little padding, removing its margin */
+.header h5 {
+  padding: 60px;
+  margin: 0;
+  color: rgb(148, 28, 128);
+  text-align: center;
+}
+
+
+/* Giving the .post element margin on 3 sides */
+.post {
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
