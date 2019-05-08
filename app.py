@@ -31,7 +31,7 @@ def scrape():
     # Update the Mongo database using update and upsert=True
     mongo.db.collection.update({}, mars_data, upsert=True)
 
-    # Redirect back to home page
+    # Redirect back to home page update
     return redirect("/")
 
 
